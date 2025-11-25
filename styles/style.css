@@ -2,4 +2,88 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image: var(--background-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--bg-color);
+}
+
+.header {
+  position: relative;
+  block-size: 100vh;
+  min-block-size: 668px;
+  display: grid;
+}
+
+/* REC */
+
+.header__rec {
+  position: absolute;
+  text-transform: uppercase;
+  inset-block-start: 10px;
+  inset-inline-end: 39px;
+  font-size: 1.125rem;
+  color: var(--accent-color);
+}
+
+/* RECPOINT */
+
+.header__rec::after {
+  content: "";
+  display: inline-block;
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-inline-start: 10px;
+  background-color: var(--accent-color);
+}
+
+/* CORNERS */
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
+}
+
+/* UPPER CORNER*/
+.decorated-zone::before {
+  inset-block-start: 10px;
+  inset-inline-end: 10px;
+  border-block-start: 1px solid var(--accent-color);
+  border-inline-end: 1px solid var(--accent-color);
+}
+
+/* LOWER CORNER */
+
+.decorated-zone::after {
+  inset-block-end: 10px;
+  inset-inline-start: 10px;
+  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color);
+}
+
+/* TEXT AREA */
+
+.header__title {
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.83; /* or 96px */
+  text-transform: lowercase;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+@media (min-width: 768px) {
+  .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
