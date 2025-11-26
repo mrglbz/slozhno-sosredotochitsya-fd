@@ -10,6 +10,6 @@
   --heading-color: #db00ff;
   --text-color: #f1b2ce;
   --border-color: var(--accent-color);
-  --font-family: "IBM Plex mono", monospace;
+  --font-family: "IBM Plex Mono", monospace;
   --section-padding: 40px;
 }

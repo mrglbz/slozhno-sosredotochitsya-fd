@@ -80,6 +80,27 @@
   line-height: 0.83; /* or 96px */
   text-transform: lowercase;
   text-shadow: 4px 4px 0 var(--accent-color);
+  color: var(--heading-color);
+  font-family: var(--font-family);
+}
+
+/* FOOTER */
+
+.footer {
+  block-size: 100vh;
+  min-block-size: 668px;
+  display: grid;
+  place-items: center;
+}
+
+.footer__title {
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.83;
+  text-transform: lowercase;
+  text-shadow: 2px 2px 0 var(--accent-color);
+  font-family: var(--font-family);
 }
 
 @media (min-width: 768px) {
