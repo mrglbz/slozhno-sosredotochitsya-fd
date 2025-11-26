@@ -7,4 +7,9 @@
   --background-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
   --accent-color: #ff0070;
+  --heading-color: #db00ff;
+  --text-color: #f1b2ce;
+  --border-color: var(--accent-color);
+  --font-family: "IBM Plex mono", monospace;
+  --section-padding: 40px;
 }
