@@ -49,9 +49,11 @@ a {
   line-height: 1.3;
 }
 
-/* .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
-} */
+.header__theme-menu-button_active {
+  /* border-color: var(--accent-color);*/
+  pointer-events: none;
+  outline: 1px solid var(--accent-color);
+}
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--btn-hover-outline-color);
