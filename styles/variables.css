@@ -11,5 +11,5 @@
   --text-color: #f1b2ce;
   --border-color: var(--accent-color);
   --font-family: "IBM Plex Mono", monospace;
-  --section-padding: 40px;
+  --btn-hover-outline-color: rgba(255, 0, 112, 0.4);
 }
