@@ -46,9 +46,11 @@
   cursor: pointer;
 }
 
-/* .header__theme-menu-button_active {
-  border-color: var(--accent-color);
-} */
+.header__theme-menu-button_active {
+  /* border-color: var(--accent-color);*/
+  pointer-events: none;
+  border: 1px solid var(--text-color);
+}
 
 .header__title {
   align-self: center;
