@@ -19,4 +19,5 @@
   --title-color: var(--accent-color);
   --border-color: var(--accent-color);
   --btn-hover-outline-color: rgba(255, 0, 112, 0.4);
+  --btn-active-outline-color: #ff0070;
 }

@@ -16,11 +16,12 @@
   --btn-hover-outline-color: rgba(255, 0, 112, 0.4);
   --header-horizontal-padding: 10px;
   --main-horizontal-padding: 10px;
+  --btn-active-outline-color: #ff0070;
 }
 
 @media (width >= 768px) {
   :root {
-    --header-horizontal-padding: 20px; /* почему не 20?*/
+    --header-horizontal-padding: 20px;
     --main-horizontal-padding: 20px;
   }
 }
