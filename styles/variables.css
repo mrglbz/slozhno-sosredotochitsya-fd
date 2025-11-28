@@ -9,7 +9,18 @@
   --accent-color: #ff0070;
   --heading-color: #db00ff;
   --text-color: #f1b2ce;
+  --title-decor-color: #000028;
+  --title-color: var(--accent-color);
   --border-color: var(--accent-color);
   --font-family: "IBM Plex Mono", monospace;
   --btn-hover-outline-color: rgba(255, 0, 112, 0.4);
+  --header-horizontal-padding: 10px;
+  --main-horizontal-padding: 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --header-horizontal-padding: 20px; /* почему не 20?*/
+    --main-horizontal-padding: 20px;
+  }
 }

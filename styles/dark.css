@@ -15,6 +15,8 @@
   --accent-color: #ff0070;
   --heading-color: #db00ff;
   --text-color: #f1b2ce;
+  --title-decor-color: #000028;
+  --title-color: var(--accent-color);
   --border-color: var(--accent-color);
   --btn-hover-outline-color: rgba(255, 0, 112, 0.4);
 }

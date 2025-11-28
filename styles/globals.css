@@ -43,7 +43,8 @@ a {
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--bg-color);
+  color: var(--title-decor-color);
+
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1.3;
