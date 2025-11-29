@@ -315,7 +315,7 @@
   }
 
   .content-section_type_reasons .content-card__holder .content-card {
-    flex: 1;
+    flex-basis: calc((100% - 20px) / 3);
   }
 }
 
