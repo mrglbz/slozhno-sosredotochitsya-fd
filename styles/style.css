@@ -40,13 +40,19 @@
 
 .header__theme-menu-list {
   display: grid;
-  gap: 10px;
+  gap: 11.5px;
 }
 
 .header__theme-menu-button {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 1.5px 13px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1;
+
   color: var(--accent-color, #ff0070);
   font-family: var(--font-family, "IBM Plex Mono", monospace);
   text-transform: lowercase;
@@ -58,9 +64,9 @@
   justify-self: start;
   grid-row: 12;
   grid-column: 1 / -1;
-  font-weight: 700;
+  font-weight: bold;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 0.83; /* or 96px */
+  line-height: 0.83;
   text-transform: lowercase;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
   color: var(--heading-color, #db00ff);
@@ -229,7 +235,7 @@
 .content-card__holder {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .content-card {

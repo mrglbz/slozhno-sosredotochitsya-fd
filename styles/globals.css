@@ -51,7 +51,6 @@ a {
 }
 
 .header__theme-menu-button_active {
-  /* border-color: var(--accent-color);*/
   pointer-events: none;
   outline: 1px solid var(--btn-active-outline-color);
 }
