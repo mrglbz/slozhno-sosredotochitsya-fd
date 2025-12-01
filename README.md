@@ -1,1 +1,1 @@
-https://github.com/mrglbz/slozhno-sosredotochitsya-fd aaa
+https://github.com/mrglbz/slozhno-sosredotochitsya-fd
