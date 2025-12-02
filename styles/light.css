@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url("../images/cover-image-light.png");
-  --bg-color: #ffc2e6;
+  --bg-color: #fff1f7;
   --text-color: #353430;
   --title-decor-color: #353430;
   --title-color: #353430;
@@ -28,7 +28,7 @@
   :root {
     /* Дублируем только те же переменные, что и выше */
     --background-image: url("../images/cover-image-light.png");
-    --bg-color: #ffc2e6;
+    --bg-color: #fff1f7;
     --text-color: #353430;
     --title-decor-color: #353430;
     --title-color: #353430;

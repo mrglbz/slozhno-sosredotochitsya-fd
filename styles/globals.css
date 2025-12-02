@@ -40,39 +40,3 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-
-.title-decor {
-  background-color: var(--accent-color);
-  color: var(--title-decor-color);
-
-  font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.3;
-}
-
-.header__theme-menu-button_active {
-  pointer-events: none;
-  outline: 1px solid var(--btn-active-outline-color);
-}
-
-.header__theme-menu-button:hover {
-  outline: 1px solid var(--btn-hover-outline-color);
-}
-
-.header__theme-menu-button:focus-visible {
-  outline: none;
-  border-block-end: 1px solid currentColor;
-}
-
-.content-link {
-  text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
-}
-
-.content-link:hover {
-  border-block-end: 1px solid currentColor;
-}
-
-.content-link:focus-visible {
-  outline: 1px solid currentColor;
-}
