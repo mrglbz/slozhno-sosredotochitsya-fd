@@ -18,6 +18,9 @@
   --title-decor-color: #000028;
   --title-color: var(--accent-color);
   --border-color: var(--accent-color);
-  --btn-hover-outline-color: rgba(255, 0, 112, 0.4);
+  --border-decorated-zone-color: #ff0070;
+  --btn-menu-text-color: #ff0070;
   --btn-active-outline-color: #ff0070;
+  --btn-hover-outline-color: rgba(255, 0, 112, 0.4);
+  --btn-focus-outline-color: #ff0070;
 }

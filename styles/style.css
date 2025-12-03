@@ -18,8 +18,8 @@
 }
 
 .title-decor {
-  background-color: var(--accent-color);
-  color: var(--title-decor-color);
+  background-color: var(--accent-color, #ff0070);
+  color: var(--title-decor-color, #000028);
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1.3;
@@ -57,17 +57,17 @@
   gap: 10px;
 }
 
+/* BUTTONS */
+
 .header__theme-menu-button {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 3px 13px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1;
-
-  color: var(--accent-color, #ff0070);
+  color: var(--btn-menu-text-color, #ff0070);
   font-family: var(--font-family, "IBM Plex Mono", monospace);
   text-transform: lowercase;
   cursor: pointer;
@@ -75,16 +75,16 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  outline: 1px solid var(--btn-active-outline-color);
+  outline: 1px solid var(--btn-active-outline-color, #ff0070);
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--btn-hover-outline-color);
+  outline: 1px solid var(--btn-hover-outline-color, rgba(255, 0, 112, 0.4));
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-block-end: 1px solid currentColor;
+  border-block-end: 1px solid var(--btn-focus-outline-color, #ff0070);
 }
 
 .header__title {
@@ -227,8 +227,8 @@
 .decorated-zone::before {
   inset-block-start: 10px;
   inset-inline-end: 10px;
-  border-block-start: 1px solid var(--accent-color, #ff0070);
-  border-inline-end: 1px solid var(--accent-color, #ff0070);
+  border-block-start: 1px solid var(--border-decorated-zone-color, #ff0070);
+  border-inline-end: 1px solid var(--border-decorated-zone-color, #ff0070);
 }
 
 /* LOWER CORNER */
@@ -236,8 +236,8 @@
 .decorated-zone::after {
   inset-block-end: 10px;
   inset-inline-start: 10px;
-  border-inline-start: 1px solid var(--accent-color, #ff0070);
-  border-block-end: 1px solid var(--accent-color, #ff0070);
+  border-inline-start: 1px solid var(--border-decorated-zone-color, #ff0070);
+  border-block-end: 1px solid var(--border-decorated-zone-color, #ff0070);
 }
 
 @media (width >= 768px) {
@@ -319,6 +319,22 @@
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.3;
+}
+
+/* LINKS STYLE */
+
+.content-link {
+  color: var(--text-color, #f1b2ce);
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+}
+
+.content-link:hover {
+  border-block-end: 1px solid var(--text-color, #f1b2ce);
+}
+
+.content-link:focus-visible {
+  outline: 1px solid var(--text-color, #f1b2ce);
 }
 
 @media (width >= 768px) {
